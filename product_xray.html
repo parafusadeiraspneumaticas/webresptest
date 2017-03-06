@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>WebRespTest - Produto - X-Ray</title>
+        <link rel="icon" href="common/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="common/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="common/css/reset.css">
+        <link rel="stylesheet" href="common/css/reset-responsive.css">
+        <link rel="stylesheet" href="common/css/estilo.css">
+        <link rel="stylesheet" media="(max-width: 1000px)" href="common/css/site-medium.css">
+        <link rel="stylesheet" media="(min-width: 1001px)" href="common/css/site-large.css">
+        <link rel="stylesheet" media="(max-width: 500px)" href="common/css/site.css">
+        <script src="common/js/jquery.js"></script>
+        <script src="common/js/menu.js"></script>
+        <script src="common/js/skdslider.js"></script>
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    
+    <body>
+
+        <!-- container-externo -->
+        <div class="container-externo">
+        
+            <!-- header -->
+            <header>
+
+                <!-- button to open menu -->
+                <button class="menu-abrir" onclick="openMenu(this)">Open Menu</button>
+
+                <!-- external structure -->
+                <div class="container">
+
+                    <!-- logo company -->
+                    <div class="logo">
+                        
+                        <h1 class="webresptestlogo">
+                            webresptest
+                        </h1>
+                        <h2 class="sublogo">
+                            WebRespTest Ipsum
+                        </h2>
+                        
+                    </div>
+                    <!-- END logo company -->
+
+<!--                     navegation bar -->
+                    <nav class="barra-nav">
+
+                        <!-- button to close menu -->
+                        <button class="menu-fechar" onclick="closeMenu(this)">Close Menu</button>
+
+                        <!-- section of menu -->
+                        <ul class="menu-principal">
+                            <li><a href="index.html" class="menu">Home</a></li>
+                            <li><a href="#" class="menu">A Empresa</a></li>
+                            <li><a href="product_xray.html" class="menu">Produtos</a></li>
+                            <li><a href="#" class="menu">Servi&ccedil;os</a></li>
+                            <li><a href="#" class="menu">Contato</a></li>
+                            <li><a href="#" class="menu">Localiza&ccedil;&atilde;o</a></li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </header>
+            <!-- end header -->
+
+            <!-- more details of product -->
+            <main>
+
+                <!-- title of product -->
+                <section>
+                    <h3 class="h3-title">
+                        X-ray Ipsum
+                    </h3>
+                </section>
+                
+                <!-- image of product -->
+                <section>
+                    <div class="detalhes-img-produto">
+                        <figure>
+                            <img src="common/img/full.jpg" alt="Sea" />
+                        </figure>
+                    </div>
+                </section>
+                
+                <!-- tabs categories of product -->
+                <section>
+                    <div class="detalhes-abas-produto">
+                        <nav>
+                            <ul>
+                                <li><a id="defaultOpenTab" href="javascript:void(0)" class="aba" onclick="openTab(event, 'aba-descricao')">Descri&ccedil;&atilde;o</a></li>
+                                <li><a href="javascript:void(0)" class="aba" onclick="openTab(event, 'aba-tecnica')">Espec. T&eacute;cnica</a></li>
+                                <li><a href="javascript:void(0)" class="aba" onclick="openTab(event, 'aba-aplicacoes')">Aplica&ccedil&otilde;es</a></li>
+                                <li><a href="javascript:void(0)" class="aba" onclick="openTab(event, 'aba-garantia')">Garantia</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                    <!-- descricao tab -->
+                    <div id="aba-descricao" class="detalhes-produto descricao">
+                        <h2>Descri&ccedil;&otilde;es</h2>
+                        <p>Dictumst tempus, class Felis sapien ut tempus blandit. Penatibus nisl tellus ridiculus congue neque per tristique ligula nibh orci rhoncus sollicitudin curae; per nostra ligula ut facilisi. Sapien rutrum hendrerit diam ligula. Consequat donec gravida.</p>
+                        <p>Augue faucibus ligula nonummy Suscipit. Vehicula donec phasellus turpis lobortis curae;, nostra aliquam ante tristique hac gravida. Ligula tellus duis velit lacinia fermentum Molestie praesent ultrices.</p>
+                        <p>Turpis lectus ac venenatis hendrerit quis hendrerit dis metus mattis lobortis cum accumsan Parturient non dictum parturient tempor tempus.</p>
+                    </div>
+                    
+                    <!-- espec. tecnica tab -->
+                    <div id="aba-tecnica" class="detalhes-produto tecnica">
+                        <h2>Espec. T&eacute;cnica</h2>
+                        <ul>
+                            <li>Nam facilisis ante ut neque sodales, a pretium sem tristique;</li>
+                            <li>Curabitur accumsan mi vitae mauris aliquam mattis;</li>
+                            <li>Etiam faucibus sem eget ligula maximus tempus;</li>
+                            <li>Pellentesque scelerisque dui sed eros malesuada finibus;</li>
+                            <li>Suspendisse vel libero feugiat, ultrices leo sit amet, rhoncus ex;</li>
+                            <li>Integer vitae nulla et orci pulvinar efficitur;</li>
+                            <li>Vestibulum dapibus ante in libero pellentesque, nec tincidunt turpis lobortis;</li>
+                            <li>Praesent vestibulum velit eget pulvinar condimentum;</li>
+                            <li>Proin hendrerit orci at justo scelerisque, eu placerat magna aliquam;</li>
+                            <li>Vestibulum blandit ligula ac euismod blandit;</li>
+                            <li>Donec pellentesque velit nec nisl suscipit, id tristique urna ultricies;</li>
+                            <li>Cras tristique ex nec ligula ultricies venenatis;</li>
+                            <li>Suspendisse at sem eget odio rhoncus maximus ut id quam;</li>
+                            <li>Etiam sit amet neque mattis, commodo erat ut, blandit magna.</li>
+                        </ul>
+                    </div>
+
+                    <!-- aplicacoes tab -->
+                    <div id="aba-aplicacoes" class="detalhes-produto aplicacoes">
+                        <h2>Aplica&ccedil&otilde;es</h2>
+                        <ul>
+                            <li>Sed pretium erat id augue consectetur, ac tempor neque dignissim;</li>
+                            <li>Phasellus condimentum risus et ex ornare scelerisque;</li>
+                            <li>Maecenas id sem placerat, pellentesque ligula vitae, mattis sem;</li>
+                            <li>Sed et urna vel felis rutrum blandit vitae non nisi.</li>
+                        </ul>
+                    </div>
+
+                    <!-- garantia tab -->
+                    <div id="aba-garantia" class="detalhes-produto garantia">
+                        <h2>Garantia</h2>
+                        <p>Nulla vitae sapien ut odio tincidunt viverra vitae eu urna.</p>
+                    </div>
+                </section>
+                
+            </main>
+            <!-- end more details of product -->
+
+            <!-- footer -->
+            <footer>
+                
+                <!-- contact -->
+                <address>
+                
+                    <p>Address, number - district - state - ps</p>
+                    <p>telephone number</p>
+                    <p>electronic-mail@webresptest.com</p>
+                
+                </address>
+                
+                <!-- copyright -->
+                2017. webresptest.
+                
+            </footer>
+            <!-- end footer -->
+            
+        </div>
+        <!-- container-externo -->
+        
+    </body>
+</html>

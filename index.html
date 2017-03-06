@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>WebRespTest - Home Page</title>
+        <link rel="icon" href="common/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="common/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="common/css/reset.css">
+        <link rel="stylesheet" href="common/css/reset-responsive.css">
+        <link rel="stylesheet" href="common/css/estilo.css">
+        <link rel="stylesheet" href="common/css/skdslider.css">
+        <link rel="stylesheet" media="(max-width: 1000px)" href="common/css/site-medium.css">
+        <link rel="stylesheet" media="(min-width: 1001px)" href="common/css/site-large.css">
+        <link rel="stylesheet" media="(max-width: 500px)" href="common/css/site.css">
+        <script src="common/js/jquery.js"></script>
+        <script src="common/js/menu.js"></script>
+        <script src="common/js/skdslider.js"></script>
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    
+    <body>
+
+        <!-- container-externo -->
+        <div class="container-externo">
+        
+            <!-- header -->
+            <header>
+
+                <!-- button to open menu -->
+                <button class="menu-abrir" onclick="openMenu(this)">Open Menu</button>
+
+                <!-- external structure -->
+                <div class="container">
+
+                    <!-- logo company -->
+                    <div class="logo">
+                        
+                        <h1 class="webresptestlogo">
+                            webresptest
+                        </h1>
+                        <h2 class="sublogo">
+                            WebRespTest Ipsum
+                        </h2>
+                        
+                    </div>
+                    <!-- END logo company -->
+
+<!--                     navegation bar -->
+                    <nav class="barra-nav">
+
+                        <!-- button to close menu -->
+                        <button class="menu-fechar" onclick="closeMenu(this)">Close Menu</button>
+
+                        <!-- section of menu -->
+                        <ul class="menu-principal">
+                            <li><a href="#" class="menu">A Empresa</a></li>
+                            <li><a href="#" class="menu">Produtos</a></li>
+                            <li><a href="#" class="menu">Servi&ccedil;os</a></li>
+                            <li><a href="#" class="menu">Contato</a></li>
+                            <li><a href="#" class="menu">Localiza&ccedil;&atilde;o</a></li>
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </header>
+            <!-- end header -->
+
+            <!-- list of products -->
+            <main>
+
+                <!-- products photos galleries (using framework skdSlider) -->
+                <div class="imgs-novidades skdslider">
+
+                    <!-- slides set -->
+                    <ul id="demo1" class="slides">
+                        
+                        <!-- slide #1 -->
+                        <li>
+                            <!-- slide #1 - photo -->
+                            <img src="common/img/1.jpg" />
+                        </li>
+                        
+                        <!-- slide #2 -->
+                        <li>
+                            <!-- slide #2 - photo -->
+                            <img src="common/img/2.jpg" />
+                        </li>
+
+                        <!-- slide #3 -->
+                        <li>
+                            <!-- slide #3 - photo -->
+                            <img src="common/img/3.jpg" />
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <!-- title - list of products -->
+                <h3 class="h3-title">
+                    T&iacute;tulo Ipsum
+                </h3>
+
+                <!-- list of products -->
+                <div class="imgs-produtos">
+
+                    <!-- grid products -->
+                    <ul>
+                        <li>
+                            <a href="product_xray.html" target="_self">
+                                <figcaption>
+                                    X-ray
+                                </figcaption>
+                                <figure>
+                                    <img src="common/img/img001.jpg" alt="Decoration room" />
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figcaption>
+                                    Papa
+                                </figcaption>
+                                <figure>
+                                    <img src="common/img/img002.jpg" alt="Wave surfing" />
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figcaption>
+                                    Tango
+                                </figcaption>
+                                <figure>
+                                    <img src="common/img/img003.jpg" alt="Sunset mountains" />
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figcaption>
+                                    Oscar
+                                </figcaption>
+                                <figure>
+                                    <img src="common/img/img004.jpg" alt="Butterfly" />
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </main>
+            <!-- end list of products -->
+
+            <!-- footer -->
+            <footer>
+                
+                <!-- contact -->
+                <address>
+                
+                    <p>Address, number - district - state - ps</p>
+                    <p>telephone number</p>
+                    <p>electronic-mail@webresptest.com</p>
+                
+                </address>
+                
+                <!-- copyright -->
+                2017. webresptest.
+                
+            </footer>
+            <!-- end footer -->
+            
+        </div>
+        <!-- container-externo -->
+        
+    </body>
+</html>

@@ -1,0 +1,17 @@
+/* desktop */
+@media (min-width: 1001px) {
+    body {
+        max-width: 2000px;
+    }
+
+    /* test */
+    .container-externo {
+/*        background-color: #0ff;*/
+    }
+
+    .imgs-produtos li {
+        height: auto;
+        width: 24%;
+    }
+    
+}

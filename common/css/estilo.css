@@ -1,0 +1,193 @@
+/** hidden lateral menu above 500px up */
+@media not all and (max-width: 500px) {
+    
+    /* hidden buttons */
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }
+
+    /* navigation bar */
+    .barra-nav {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    /* style item of vertical menu */
+    .menu-principal li {
+        float: left;
+        padding: 0 1em;
+    }
+    
+    /* style of link vertical menu */
+    .menu-principal a {
+        font-size: 0.8em;
+        text-decoration: underline;
+        vertical-align: middle;
+    }
+    
+}
+
+
+/** general design */
+body {
+    background-image: url('../img/bg_prego.jpg');
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    line-height: 1.4;
+}
+
+.container-externo {
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+/* logo of company */
+h1.webresptestlogo {
+    color: #5CD032;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2.sublogo {
+    color: #000;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.6em;
+    margin-top: -1em;
+}
+
+
+/** new products */
+.imgs-novidades img {
+    max-width: 1280px; /* width of image */
+    width: 100%;
+    max-height: 250px; /* height of image */
+    min-height: auto;
+}
+
+
+/** contents */
+main {
+    margin: 0 auto;
+}
+
+/** title */
+.h3-title {
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-top: 0.9em;
+    text-transform: uppercase;
+}
+
+.imgs-produtos {
+    padding: 0.2em 1em;
+    text-align: center;
+    width: 100%;
+}
+
+.imgs-produtos li {
+    border: 1px dotted #ccc;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.imgs-produtos a {
+    color: #000;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.imgs-produtos img {
+    filter: alpha(opacity=90);
+    min-height: auto;
+    max-height: 231px; /* height of image */
+    max-width: 308px; /* width of image */
+    opacity: 0.9;
+    width: 100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+
+/** tabs */
+/* product */
+.detalhes-img-produto img {
+    filter: alpha(opacity=90);
+    min-height: auto;
+    max-height: 231px; /* height of image */
+    max-width: 924px; /* width of image */
+    opacity: 0.9;
+    width: 100%;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.detalhes-abas-produto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detalhes-abas-produto ul li {
+    float: left;
+}
+
+.detalhes-abas-produto ul li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.detalhes-abas-produto ul li a:hover {
+    background-color: #ddd;
+}
+
+.detalhes-abas-produto ul li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* contents tab */
+.detalhes-produto {
+    border-top: none;
+    display: none;
+    font-size: 0.8em;
+    line-height: 2em;
+    padding: 6px 12px;
+    text-align: justify;
+}
+
+.detalhes-produto h2 {
+    font-size: 3em;
+    line-height: 2em;
+}
+
+.detalhes-produto > ul {
+    list-style: disc;
+    margin-left: 2em;
+}
+
+/** footer */
+footer {
+    background-color: #ccc;
+    font-size: 0.6em;
+    clear: left;
+    float: left;
+    width: 100%;
+}

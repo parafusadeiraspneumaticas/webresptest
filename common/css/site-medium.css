@@ -1,0 +1,17 @@
+/* tablet */
+@media (max-width: 1000px) {
+    body {
+        max-width: 1000px;
+    }
+    
+    /* test */
+    .container-externo {
+/*        background-color: #ff0;*/
+    }
+    
+    .imgs-produtos li {
+        height: auto;
+        width: 49%;
+    }
+
+}

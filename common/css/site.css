@@ -1,0 +1,97 @@
+body {
+    max-width: 500px;
+}
+
+.container-externo {
+/*    background-color: red;*/
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 315px;
+    width: 100%;
+}
+
+/* hamburguer icon */
+.menu-abrir {
+    float: right;
+}
+
+/* navigation bar */
+.barra-nav {
+    background: #f0f0f0;
+    height: 100%;
+    left: -90%;
+    margin: 0;
+    max-width: 320px;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    transition: left 0.3s ease-out;
+    width: 80%;
+    z-index: 1;
+}
+
+/* hidden text of button */
+.menu-abrir,
+.menu-fechar {
+    background: none;
+    border: 0;
+    font-size: 1.6em;
+    outline: 0;
+    text-indent: -999em;
+    -webkit-appearance: none;
+}
+
+/* open menu - hamburguer icon */
+.menu-abrir {
+    border-bottom: .125em solid #000;
+    border-top: .375em double #000;
+    height: 0;
+    margin: 0.5em;
+    padding-top: .125em;
+    vertical-align: middle;
+    width: 1em;
+}
+
+.menu-ativo:after {
+    background: rgba(0, 0, 0, 0.4);
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+/* lateral menu (responsive design) */
+.menu-ativo .barra-nav {
+    left: 0;
+}
+
+/* button to close menu */
+.menu-fechar {
+    height: 1em;
+    position: relative;
+    width: 1em;
+}
+
+/* close menu - multiplication sign */
+.menu-fechar:before {
+    content: '\00D7';
+    left: 0;
+    position: absolute;
+    text-indent: 0;
+    top: 0;
+}
+
+/* style item of lateral menu */
+.menu-principal li {
+    padding: 1em 0;
+    width: 100%;
+}
+
+/* new products */
+.imgs-produtos li {
+    max-width: 500px;
+    width: 100%;
+}
